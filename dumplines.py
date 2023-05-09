@@ -13,7 +13,6 @@ args = sys.argv[:]
 args.pop(0)
 
 FILEPATH, OUTPATH, LAYER = args
-FILEPATH, OUTPATH, LAYER = '/home/diablo/tmp/geography-simple.geojson', 'x.gpkg', 'outer'
 
 print(f'Update {FILEPATH} {OUTPATH} {LAYER}')
 try:
